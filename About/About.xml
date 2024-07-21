@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+	<packageId>HeadlessCorpseFilter.geh_mine_r</packageId>
+
+	<name>Headless Corpse Filter</name>
+
+	<author>geh.mine.r</author>
+
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+
+	<description>This mod adds an additional filter to the "butcher creature" recipe to only allow headless humanoid corpses.</description>
+
+</ModMetaData>

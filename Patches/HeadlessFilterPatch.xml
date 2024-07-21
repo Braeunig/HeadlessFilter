@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Ideology\Defs\Misc\SpecialThingFilterDefs[Defs]</xpath>
+		<SpecialThingFilterDef>
+			<defName>AllowCorpsesHeadless</defName>
+			<label>allow headless corpses</label>
+    		<description>Allow dead bodies with a head.</description>
+   			<parentCategory>CorpsesHumanlike</parentCategory>
+    		<allowedByDefault>true</allowedByDefault>
+    		<saveKey>allowCorpsesHeadless</saveKey>
+    		<workerClass>SpecialThingFilterWorker_HeadlessCorpse</workerClass>
+  		</SpecialThingFilterDef>
+	</Operation>
+</Patch>
