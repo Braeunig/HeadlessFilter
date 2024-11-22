@@ -9,12 +9,12 @@ using RimWorld;
 using UnityEngine;
 using Verse;
 
-namespace HeadlessCorpseFilter {
-    public class SpecialThingFilterWorker_HeadlessCorpse : SpecialThingFilterWorker {
+namespace Rimworld {
+    public class SpecialThingFilterWorker_HeadedCorpse : SpecialThingFilterWorker {
         public override bool Matches(Thing t) {
             Corpse corpse = t as Corpse;
             return corpse.InnerPawn.health.hediffSet.GetNotMissingParts().Any((BodyPartRecord p) => p.def == BodyPartDefOf.Head);
-          
         }
+
     }
 }
