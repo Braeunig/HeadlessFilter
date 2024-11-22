@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<SpecialThingFilterDef>
-		<defName>AllowCorpsesHeadless</defName>
-		<label>allow headless corpses</label>
+		<defName>AllowCorpsesHeaded</defName>
+		<label>allow headed corpses</label>
 		<description>Allow dead bodies with a head.</description>
 		<parentCategory>CorpsesHumanlike</parentCategory>
 		<allowedByDefault>true</allowedByDefault>
-		<saveKey>allowCorpsesHeadless</saveKey>
-		<workerClass>SpecialThingFilterWorker_HeadlessCorpse</workerClass>
+		<saveKey>allowCorpsesHeaded</saveKey>
+		<workerClass>SpecialThingFilterWorker_HeadedCorpse</workerClass>
 	</SpecialThingFilterDef>
 </Defs>
